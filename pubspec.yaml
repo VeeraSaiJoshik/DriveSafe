@@ -1,0 +1,207 @@
+name: drivesafev2
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.0
+  google_maps_flutter: ^2.0.2
+  flutter_neumorphic: ^3.2.0
+  
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  image_picker: ^0.8.5+3
+  firebase_core: ^1.18.0
+  awesome_dialog: ^2.2.1
+  firebase_database: ^9.0.16
+  random_string_generator: ^2.0.0
+  ionicons: ^0.1.2
+  lottie: ^1.3.0
+  firebase_storage: ^10.2.18
+  curved_navigation_bar: ^1.0.3
+  random_names: ^1.0.1
+  contacts_service: ^0.6.3
+  cron: ^0.5.0
+  flutter_lints: ^1.0.0
+  location: ^4.4.0
+  background_sms: ^0.0.4
+  permission_handler: ^10.0.0
+  mobile_number: ^1.0.4
+  telephony: ^0.2.0
+  http: ^0.13.4
+  buttons_tabbar: ^1.3.6
+  shimmer: ^2.0.0
+  http_requests: ^1.5.0
+  auto_size_text: ^3.0.0
+  latlong2: ^0.8.1
+  latlong: ^0.6.1
+  flutter_latlong: ^1.0.3
+  iconsax: ^0.0.8
+  google_directions_api: ^0.9.1
+  flutter_polyline_points: ^1.0.0
+  time: ^2.1.1
+  lat_lng_to_timezone: ^0.2.0
+  syncfusion_flutter_gauges: ^20.2.44
+  flutter_tts: ^3.5.1
+  sensors_plus: ^1.3.4+1
+  camera: ^0.10.0+1
+  google_mlkit_face_detection: ^0.4.0
+  audioplayers: ^1.0.1
+  flutter_dnd: ^0.1.4+1
+  flutter_callkit_incoming: ^1.0.2+2
+  call_log: ^4.0.0
+  phone_state: ^1.0.2
+  phone_state_i: ^0.0.3
+  phone_plus: ^0.0.2
+  firebase_messaging: ^11.4.3
+  overlay_support: ^2.0.1
+  in_app_notification: ^1.1.2
+  elegant_notification: ^1.6.3
+  flutter_local_notifications: ^11.0.1
+  awesome_notifications: ^0.6.21
+  model_viewer_plus: ^1.3.3
+  shared_preferences: ^2.0.15
+  map_launcher: ^2.4.0
+  pigeon: ^4.2.3
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/audio/alert.mp3
+    - assets/audio/sleepAlert.mp3
+    - assets/images/sleepWarning.png
+    - assets/images/eye.png
+    - assets/images/no-pictures.png
+    - assets/images/speeding.png
+    - assets/images/lastMeasured.png
+    - assets/images/pin-map.png
+    - assets/images/pin-map-bf.png
+    - assets/images/analysis.png
+    - assets/images/big_images/morning/cloudy.png
+    - assets/images/big_images/morning/mild_cloudy.png
+    - assets/images/big_images/morning/raining.png
+    - assets/images/big_images/morning/sun.png
+    - assets/images/big_images/morning/thunder.png
+    - assets/images/big_images/morning/windy.png
+    - assets/images/big_images/night/cloudy.png
+    - assets/images/big_images/night/mild_cloudy.png
+    - assets/images/big_images/night/night.png
+    - assets/images/big_images/night/thunder.png
+    - assets/images/big_images/night/raining.png
+    - assets/images/big_images/night/windy.png
+    - assets/images/small_images/day/cloudy.png
+    - assets/images/small_images/day/mild_cloudy.png
+    - assets/images/small_images/day/raining.png
+    - assets/images/small_images/day/sun.png
+    - assets/images/small_images/day/thunder.png
+    - assets/images/small_images/day/windy.png
+    - assets/images/small_images/night/cloudy.png
+    - assets/images/small_images/night/mild_cloudy.png
+    - assets/images/small_images/night/night.png
+    - assets/images/small_images/night/thunder.png
+    - assets/images/small_images/night/raining.png
+    - assets/images/small_images/night/windy.png
+    - assets/images/suv-car.png
+    - assets/animations/contacts.json
+    - assets/animations/driveOptionChooseScreen.json
+    - assets/animations/mainScreencarLogo.json
+    - assets/animations/settings.json
+    - assets/animations/steeringWheel.json
+    - assets/animations/test.json
+    - assets/animations/phoneCall.json
+    - assets/animations/texting.json
+    - assets/animations/warning.json
+    - assets/images/roadIncidents/brokenCar.png
+    - assets/images/roadIncidents/carCrash.png
+    - assets/images/roadIncidents/cautious.png
+    - assets/images/roadIncidents/closedLane.png
+    - assets/images/roadIncidents/flood.png
+    - assets/images/roadIncidents/fog.png
+    - assets/images/roadIncidents/icyRoad.png
+    - assets/images/roadIncidents/rain.png
+    - assets/images/roadIncidents/roadBlock.png
+    - assets/images/roadIncidents/trafficJam.png
+    - assets/images/roadIncidents/unkown.png
+    - assets/images/delay.png
+    - assets/images/clock.png
+    - assets/images/village.png
+    - assets/images/start.png
+    - assets/images/finish.png
+    - assets/images/carTop.png
+    - assets/images/carFront.png
+    - assets/images/carSide.png
+    - assets/tdModels/car.glb
+    - assets/images/noFaceFound.png
+    - assets/images/breaks.png
+    - assets/images/breaks1.png
+    - assets/images/crashBig.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+   - family: Nunito
+     fonts:
+       - asset: assets/fonts/Nunito-Regular.ttf
+       - asset: assets/fonts/Nunito-Bold.ttf
+         weight: 700 
+       - asset: assets/fonts/Nunito-ExtraBold.ttf
+         weight: 800 
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

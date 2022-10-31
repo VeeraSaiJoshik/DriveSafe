@@ -1,0 +1,9 @@
+Sign up screen
+
+First Name    Last Name 
+
+UserName
+
+Age
+
+Phone Number 

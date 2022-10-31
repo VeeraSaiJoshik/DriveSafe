@@ -1,0 +1,35 @@
+{
+    "summary": {
+        "queryTime": 21,
+        "numResults": 1
+    },
+    "addresses": [
+        {
+            "address": {
+                "buildingNumber": "1507",
+                "streetNumber": "1507",
+                "routeNumbers": [],
+                "street": "Southwest D Street",
+                "streetName": "Southwest D Street",
+                "streetNameAndNumber": "1507 Southwest D Street",
+                "countryCode": "US",
+                "countrySubdivision": "AR",
+                "countrySecondarySubdivision": "Benton",
+                "municipality": "Bentonville",
+                "postalCode": "72712",
+                "country": "United States",
+                "countryCodeISO3": "USA",
+                "freeformAddress": "1507 Southwest D Street, Bentonville, AR 72712",
+                "boundingBox": {
+                    "northEast": "36.356164,-94.214609",
+                    "southWest": "36.354916,-94.214645",
+                    "entity": "position"
+                },
+                "extendedPostalCode": "72712-6612",
+                "countrySubdivisionName": "Arkansas",
+                "localName": "Bentonville"
+            },
+            "position": "36.355087,-94.214638"
+        }
+    ]
+}

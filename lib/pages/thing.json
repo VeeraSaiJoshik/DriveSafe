@@ -1,0 +1,522 @@
+{
+    "incidents": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "67a5a06a542b93af511542df25fcdf06",
+          "iconCategory": 8,
+          "magnitudeOfDelay": 4,
+          "startTime": "2022-09-19T16:23:00Z",
+          "endTime": null,
+          "from": "Raadhuisstraat",
+          "to": "Hartenstraat",
+          "length": 121.395,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "probable",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 401,
+              "description": "Closed",
+              "iconCategory": 8
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.8869043181,
+              52.373369829
+            ],
+            [
+              4.8868144641,
+              52.3722794802
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "ae23437db2c109f9fd8a8987746d084c",
+          "iconCategory": 8,
+          "magnitudeOfDelay": 4,
+          "startTime": "2022-09-16T18:04:00Z",
+          "endTime": null,
+          "from": "Raadhuisstraat",
+          "to": "Hartenstraat / Gasthuismolensteeg",
+          "length": 120.6715762991,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "certain",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 401,
+              "description": "Closed",
+              "iconCategory": 8
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.8874353955,
+              52.3733309378
+            ],
+            [
+              4.8873053083,
+              52.3722486223
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "cf6abb526c15453aedd03e93cd039051",
+          "iconCategory": 9,
+          "magnitudeOfDelay": 0,
+          "startTime": "2022-02-04T16:37:30Z",
+          "endTime": null,
+          "from": "Nassaukade - s100 (De Clercqstraat/v100-CR3)",
+          "to": "Nieuwezijds Voorburgwal (Raadhuisstraat/v100-CR3)",
+          "length": 162.5037736281,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "probable",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 701,
+              "description": "Roadworks",
+              "iconCategory": 9
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.885312427,
+              52.3739330826
+            ],
+            [
+              4.8854049633,
+              52.3739169634
+            ],
+            [
+              4.8854747007,
+              52.3738981833
+            ],
+            [
+              4.885529686,
+              52.3738794032
+            ],
+            [
+              4.8856088111,
+              52.3738458855
+            ],
+            [
+              4.8858730087,
+              52.3737278825
+            ],
+            [
+              4.886236448,
+              52.3735522079
+            ],
+            [
+              4.8863303254,
+              52.3735159778
+            ],
+            [
+              4.8864309082,
+              52.3734797989
+            ],
+            [
+              4.8865086923,
+              52.3734529333
+            ],
+            [
+              4.8867179046,
+              52.3734046776
+            ],
+            [
+              4.8869043181,
+              52.373369829
+            ],
+            [
+              4.8870813439,
+              52.3733631254
+            ],
+            [
+              4.887313355,
+              52.3733429634
+            ],
+            [
+              4.8874353955,
+              52.3733309378
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "ac08bcc1f7560cc3f128e0dc8e194fc1",
+          "iconCategory": 9,
+          "magnitudeOfDelay": 0,
+          "startTime": "2022-02-04T16:26:00Z",
+          "endTime": null,
+          "from": "Nieuwezijds Voorburgwal (Raadhuisstraat/v100-CR3)",
+          "to": "Nassaukade - s100 (De Clercqstraat/v100-CR3)",
+          "length": 282.1788855241,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "probable",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 701,
+              "description": "Roadworks",
+              "iconCategory": 9
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.8891976068,
+              52.3732947075
+            ],
+            [
+              4.8890246043,
+              52.3733040721
+            ],
+            [
+              4.8888341675,
+              52.3733148184
+            ],
+            [
+              4.8886973748,
+              52.3733228525
+            ],
+            [
+              4.88854583,
+              52.3733349292
+            ],
+            [
+              4.8874434421,
+              52.3734368651
+            ],
+            [
+              4.8873187194,
+              52.3734435687
+            ],
+            [
+              4.8871054838,
+              52.37346501
+            ],
+            [
+              4.8869995365,
+              52.3734717136
+            ],
+            [
+              4.8869217525,
+              52.3734784172
+            ],
+            [
+              4.8866521904,
+              52.37351869
+            ],
+            [
+              4.8863920162,
+              52.3735776918
+            ],
+            [
+              4.8862659523,
+              52.3736232863
+            ],
+            [
+              4.8861774394,
+              52.3736661687
+            ],
+            [
+              4.886029918,
+              52.3737466627
+            ],
+            [
+              4.8856678197,
+              52.3739263791
+            ],
+            [
+              4.8855310271,
+              52.3739733038
+            ],
+            [
+              4.8853204737,
+              52.3740202284
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "55555e207b78e273079293e253dabe0b",
+          "iconCategory": 8,
+          "magnitudeOfDelay": 4,
+          "startTime": "2022-07-19T23:55:00Z",
+          "endTime": null,
+          "from": "Spuistraat",
+          "to": "Nieuwezijds Voorburgwal",
+          "length": 63.3409934265,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "certain",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 401,
+              "description": "Closed",
+              "iconCategory": 8
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.8893679271,
+              52.3715365312
+            ],
+            [
+              4.8897166142,
+              52.3715780851
+            ],
+            [
+              4.8902865837,
+              52.371635759
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "6950eed39efa1fc44921029d7352ed58",
+          "iconCategory": 8,
+          "magnitudeOfDelay": 4,
+          "startTime": "2022-07-08T19:22:30Z",
+          "endTime": null,
+          "from": "Nieuwezijds Voorburgwal",
+          "to": "Spuistraat",
+          "length": 84.6041504637,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "certain",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 401,
+              "description": "Closed",
+              "iconCategory": 8
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.8905963788,
+              52.371663905
+            ],
+            [
+              4.8902865837,
+              52.371635759
+            ],
+            [
+              4.8897166142,
+              52.3715780851
+            ],
+            [
+              4.8893679271,
+              52.3715365312
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "1482cae22dbe6a2482677c95377374bb",
+          "iconCategory": 8,
+          "magnitudeOfDelay": 4,
+          "startTime": "2022-08-26T11:12:28Z",
+          "endTime": "2023-01-31T22:59:00Z",
+          "from": "Hekelveld",
+          "to": "Raadhuisstraat",
+          "length": 268.6237704307,
+          "delay": 0,
+          "roadNumbers": [],
+          "timeValidity": "present",
+          "probabilityOfOccurrence": "certain",
+          "numberOfReports": null,
+          "lastReportTime": null,
+          "events": [
+            {
+              "code": 401,
+              "description": "Closed",
+              "iconCategory": 8
+            },
+            {
+              "code": 701,
+              "description": "Roadworks",
+              "iconCategory": 9
+            }
+          ]
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.8921694944,
+              52.3753519566
+            ],
+            [
+              4.8921024392,
+              52.3753050334
+            ],
+            [
+              4.8920581827,
+              52.3752715168
+            ],
+            [
+              4.8919039557,
+              52.3751454326
+            ],
+            [
+              4.8918543348,
+              52.3751011701
+            ],
+            [
+              4.8918342183,
+              52.3750837209
+            ],
+            [
+              4.8918141017,
+              52.3750622804
+            ],
+            [
+              4.8917363176,
+              52.374973755
+            ],
+            [
+              4.8916920612,
+              52.3749214584
+            ],
+            [
+              4.8916290293,
+              52.3748302719
+            ],
+            [
+              4.8914479802,
+              52.374619703
+            ],
+            [
+              4.8912803421,
+              52.3744346676
+            ],
+            [
+              4.8911851237,
+              52.374332734
+            ],
+            [
+              4.8911180685,
+              52.3742656481
+            ],
+            [
+              4.8910590599,
+              52.3742093593
+            ],
+            [
+              4.8909571359,
+              52.3741181201
+            ],
+            [
+              4.8909155617,
+              52.3740725261
+            ],
+            [
+              4.8908444831,
+              52.3739934144
+            ],
+            [
+              4.8908096144,
+              52.3739424471
+            ],
+            [
+              4.8907117138,
+              52.3737533662
+            ],
+            [
+              4.890650023,
+              52.3736205742
+            ],
+            [
+              4.8906352708,
+              52.3735883868
+            ],
+            [
+              4.8906097898,
+              52.3735253935
+            ],
+            [
+              4.8905802855,
+              52.3734583064
+            ],
+            [
+              4.8905588279,
+              52.3734194153
+            ],
+            [
+              4.8905172536,
+              52.3733590827
+            ],
+            [
+              4.8904917727,
+              52.3733255646
+            ],
+            [
+              4.8904555628,
+              52.3732973685
+            ],
+            [
+              4.890419353,
+              52.3732732661
+            ],
+            [
+              4.8903415689,
+              52.3732383663
+            ]
+          ]
+        }
+      }
+    ]
+  }

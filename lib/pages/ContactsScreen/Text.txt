@@ -1,0 +1,100 @@
+
+                    ...friendsList.map((e) {
+                      Color color = Colors.red;
+                      if (e[0] == "pending") {
+                        color = Colors.orange;
+                      }
+                      return Container(
+                          width: MediaQuery.of(context).size.width * 0.95,
+                          height: widget.height * 0.15,
+                          margin: EdgeInsets.only(
+                              left: MediaQuery.of(context).size.width * 0.025,
+                              right: MediaQuery.of(context).size.width * 0.025,
+                              bottom: widget.height * 0.02),
+                          //   color: Colors.black,
+                          child: InkWell(
+                            child: Neumorphic(
+                              child: Row(lnkn;"
+                              
+                              ;kj ;lk
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  SizedBox(
+                                    width: MediaQuery.of(context).size.width *
+                                        0.05,
+                                  ),
+                                  Neumorphic(
+                                    style: NeumorphicStyle(
+                                        boxShape: NeumorphicBoxShape.circle(),
+                                        depth: -15,
+                                        color: Colors.grey.shade300,
+                                        lightSource: LightSource.topLeft,
+                                        border: NeumorphicBorder(
+                                            color: color, width: 5),
+                                        shape: NeumorphicShape.concave),
+                                    child: Container(
+                                        height: widget.height * 0.11,
+                                        width: widget.height * 0.11,
+                                        decoration: const BoxDecoration(
+                                          borderRadius: BorderRadius.all(
+                                              Radius.circular(100)),
+                                        )),
+                                  ),
+                                  SizedBox(
+                                    width: MediaQuery.of(context).size.width *
+                                        0.02,
+                                  ),
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        allusers[e[1]].phoneNumber,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.w700,
+                                            color: color,
+                                            fontSize: MediaQuery.of(context)
+                                                    .textScaleFactor *
+                                                25),
+                                      ),
+                                      SizedBox(
+                                        height: widget.height * 0.01,
+                                      ),
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            allusers[e[1]].firstName +
+                                                " " +
+                                                allusers[e[1]].lastName,
+                                            textAlign: TextAlign.left,
+                                            style: TextStyle(
+                                                fontWeight: FontWeight.w700,
+                                                color: color,
+                                                fontSize: MediaQuery.of(context)
+                                                        .textScaleFactor *
+                                                    20),
+                                          ),
+                                          SizedBox(
+                                            width: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                0.08,
+                                          )
+                                        ],
+                                      ),
+                                    ],
+                                  )
+                                ],
+                              ),
+                              style: NeumorphicStyle(
+                                  boxShape: NeumorphicBoxShape.roundRect(
+                                      const BorderRadius.all(
+                                          Radius.circular(45))),
+                                  depth: 15,
+                                  color: Colors.grey.shade300,
+                                  lightSource: LightSource.topLeft,
+                                  shape: NeumorphicShape.concave),
+                            ),
+                          ));
+                    }).toList(),
