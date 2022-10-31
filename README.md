@@ -1,10 +1,31 @@
-# drivesafev2
+# drivesafe
 
-A new Flutter project.
+This is the submission app for the 2022 Congressional App Challenge Distric 03 Arkansas
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+In order to excute this project you will need to have the following requirements : 
+      - Flutter 2.0 SDK installed
+      - Android Device
+        - Application will not work on emulators
+      - Required API Keys : 
+        - Google Maps API Key
+        - Firebase API Key
+        - TomTom API Key
+          - Enabled Services : 
+            - Reverse GeoCoding
+            - Traffic Flow Monitoring
+        - OpenWeatherMap API Key
+          - Note : API Key for the "5 Day / 3 Hour Forecast" API
+        - GeoApify API Key
+      - The API Keys have to be updated in the following files : 
+        - android/app/src/main/AndroidManifest.xml
+        - lib/chooseCurrentLocation2.dart
+        - lib/pages/addLocation.dart
+        - lib/pages/chooseCurrentLocation.dart
+        - lib/pages/drivingScreen.dart
+        - lib/pages/sendNotification.dart
+        - NOTE : Replace text "Insert API Key Here" with your API Key in code
 
 A few resources to get you started if this is your first Flutter project:
 
