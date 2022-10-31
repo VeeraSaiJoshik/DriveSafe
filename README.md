@@ -5,7 +5,7 @@ This is the submission app for the 2022 Congressional App Challenge Distric 03 A
 ## Getting Started
 
 In order to excute this project you will need to have the following requirements : 
-      - Flutter 2.0 SDK installed
+      - Flutter 2.0 SDK installed\n
       - Android Device
         - Application will not work on emulators
       - Required API Keys : 
