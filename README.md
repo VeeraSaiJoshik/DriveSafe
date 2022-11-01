@@ -7,25 +7,25 @@ This is the submission app for the 2022 Congressional App Challenge Distric 03 A
 In order to excute this project you will need to have the following requirements :  <br />
       &emsp;- Flutter 2.0 SDK installed <br />
       &emsp;- Android Device <br />
-        &emsp;- Application will not work on emulators <br />
+        &emsp;&emsp;- Application will not work on emulators <br />
       &emsp;- Required API Keys :  <br />
-        &emsp;- Google Maps API Key <br />
-        &emsp;- Firebase API Key <br />
-        &emsp;- TomTom API Key <br />
-          &emsp;- Enabled Services :  <br />
-            &emsp;- Reverse GeoCoding <br />
-            &emsp;- Traffic Flow Monitoring <br />
-        &emsp;- OpenWeatherMap API Key <br />
-          &emsp;- Note : API Key for the "5 Day / 3 Hour Forecast" API <br />
-        &emsp;- GeoApify API Key <br />
+        &emsp;&emsp;- Google Maps API Key <br />
+        &emsp;&emsp;- Firebase API Key <br />
+        &emsp;&emsp;- TomTom API Key <br />
+          &emsp;&emsp;&emsp;- Enabled Services :  <br />
+            &emsp;&emsp;&emsp;&emsp;- Reverse GeoCoding <br />
+            &emsp;&emsp;&emsp;&emsp;- Traffic Flow Monitoring <br />
+        &emsp;&emsp;- OpenWeatherMap API Key <br />
+          &emsp;&emsp;&emsp;- Note : API Key for the "5 Day / 3 Hour Forecast" API <br />
+        &emsp;&emsp;- GeoApify API Key <br />
       &emsp;- The API Keys have to be updated in the following files :  <br />
-        &emsp;- android/app/src/main/AndroidManifest.xml <br />
-        &emsp;- lib/chooseCurrentLocation2.dart <br />
-        &emsp;- lib/pages/addLocation.dart <br />
-        &emsp;- lib/pages/chooseCurrentLocation.dart <br />
-        &emsp;- lib/pages/drivingScreen.dart <br />
-        &emsp;- lib/pages/sendNotification.dart <br />
-        &emsp;- NOTE : Replace text "Insert API Key Here" with your API Key in code <br />
+        &emsp;&emsp;- android/app/src/main/AndroidManifest.xml <br />
+        &emsp;&emsp;- lib/chooseCurrentLocation2.dart <br />
+        &emsp;&emsp;- lib/pages/addLocation.dart <br />
+        &emsp;&emsp;- lib/pages/chooseCurrentLocation.dart <br />
+        &emsp;&emsp;- lib/pages/drivingScreen.dart <br />
+        &emsp;&emsp;- lib/pages/sendNotification.dart <br />
+        &emsp;&emsp;- NOTE : Replace text "Insert API Key Here" with your API Key in code <br />
 
 A few resources to get you started if this is your first Flutter project:
 
